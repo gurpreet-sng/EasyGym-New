@@ -323,6 +323,15 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
 .owl-three .fitness-studio .business-icon{
     background-image: url("../images/fit.png");
 }
+.owl-three .dance-studio .business-icon{
+    background-image: url("../images/dance.png");
+}
+.owl-three .cross-fit .business-icon{
+    background-image: url("../images/cross.png");
+}
+.owl-three .yoga .business-icon{
+    background-image: url("../images/Yoga.png");
+}
 @media only screen and (min-width:1400px){
 
     .container-fluid{
