@@ -337,6 +337,12 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
 .color-grey{
     background-color: #fafafb;
 }
+.dropdown-wrapper{
+    border: 2px solid #B3B3B3;
+    border-radius: 20px;
+    background-color: #ffffff;
+    padding: 60px 40px;
+}
 @media only screen and (min-width:1400px){
 
     .container-fluid{
