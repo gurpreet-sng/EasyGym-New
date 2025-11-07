@@ -320,7 +320,7 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
 .we-fit-in-section .eighteen-pixel{
     margin-bottom: 40px;
 }
-.owl-three .fitness-studio{
+.owl-three .fitness-studio .business-icon{
     background-image: url("../images/fit.png");
 }
 @media only screen and (min-width:1400px){
