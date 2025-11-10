@@ -76,7 +76,7 @@ header{
 .ph-no div{
     flex-shrink: 0;
 }
-.header-btn{
+.btn.header-btn{
     font-size: 20px;
     font-weight: 500;
     line-height: 22px;
@@ -337,11 +337,16 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
 .color-grey{
     background-color: #fafafb;
 }
-.dropdown-wrapper{
+.dropdown-wrapper {
     border: 2px solid #B3B3B3;
     border-radius: 20px;
     background-color: #ffffff;
-    padding: 60px 40px;
+}
+.dropdown-wrapper.dropdown-wrapper-one{
+    padding: 59px 0px 0px 40px;
+}
+.dropdown-wrapper.dropdown-wrapper-two{
+    padding: 59px 40px 0px 0px;
 }
 .accordion-button:focus{
     border: 0px;
@@ -366,6 +371,64 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
     line-height: 28px;
     color: #555A6A;
     padding: 20px 0px;
+}
+.dropdown-wrapper{
+    position: relative;
+    overflow: hidden;
+}
+.absolute-right-image{
+    width: 100%;
+}
+.absolute-left-image{
+    width: 100%;
+}
+.dropdown-image{
+    display: flex;
+    align-items: flex-end;
+}
+.space-top{
+    padding-top: 100px;
+}
+.section-title.graphical-title h2 span{
+    display: inline-flex;
+    flex-direction: column;
+    align-items: end;
+}
+.haos-to-control-section .section-title.graphical-title{
+    margin-bottom: 30px;
+}
+.haos-to-control-section .eighteen-pixel{
+    margin-bottom: 30px;
+}
+.space-bottom-30{
+    margin-bottom: 30px;
+}
+.haos-to-control-section .dropdown-wrapper{
+    border: 1px solid #F1F2F5;
+}
+.content-box{
+    border: 1px solid #EAEAEA;
+    background-color: #FFFFFF;
+    padding: 40px 30px;
+    border-radius: 6px;
+}
+.content-box p{
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    color: #555A6A;
+    font-size: 18px;
+    line-height: 30px;
+}
+.content-box h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #343434;
+    margin-bottom: 20px;
+}
+.content-box i{
+    display: block;
+    margin-bottom: 40px;
 }
 @media only screen and (min-width:1400px){
 
