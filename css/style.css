@@ -430,6 +430,9 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
     display: block;
     margin-bottom: 40px;
 }
+.space-top-40{
+    margin-top: 40px;
+}
 @media only screen and (min-width:1400px){
 
     .container-fluid{
