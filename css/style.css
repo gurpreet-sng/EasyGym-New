@@ -433,6 +433,31 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
 .space-top-40{
     margin-top: 40px;
 }
+.btn.btn-style{
+    background-color: #000000;
+}
+.btn.btn-black{
+    background: #000000;
+    color: #ffffff;
+    padding: 10px 40px;
+}
+.data-migration-section{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fee966+0,e6c700+100 */
+    background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    padding: 62px 0px;
+}
+.data-migration-section h5{
+    color: #1C1C1E;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: left;
+}
+.data-migration-section p{
+    font-size: 20px;
+    color: #000000;
+    text-align: left;
+    margin-bottom: 0px;
+}
 @media only screen and (min-width:1400px){
 
     .container-fluid{
