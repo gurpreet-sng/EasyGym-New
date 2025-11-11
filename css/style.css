@@ -4,7 +4,7 @@ body{
     font-family: "Montserrat", sans-serif;
 }
 header{
-    border-bottom: 2px solid #8a8a8b;
+    border-bottom: 2px solid #bdbdbd;
 }
 .review-logos{
     margin-bottom: 60px;
@@ -183,11 +183,12 @@ header{
     background-image: url(../images/gloss.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: top center;
     padding-bottom: 40px;
 }
 .we-are-excited .flag{
     text-align: center;
+    margin-top: 10px;
 }
 .we-are-excited .logo{
     -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
@@ -475,4 +476,40 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
     .icon-title p br{
         display: none;
     }
+    .spaceleft-right{
+        padding: 0px 20px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding: 15px 15px;
+    }
+    .btn.header-btn{
+        font-size: 16px;
+        padding: 28px 10px;
+        margin-left: 0px;
+    }
+    .ph-no{
+        font-size: 16px;
+        margin: 0px 10px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        font-size: 16px;
+    }
+    .social-icons ul li{
+        margin: 0px 5px;
+    }
+}
+@media only screen and (max-width:1199px){
+
+}
+@media only screen and (max-width:1024px){
+
+}
+@media only screen and (max-width:991px){
+
+}
+@media only screen and (max-width:767px){
+
+}
+@media only screen and (max-width:575px){
+
 }
