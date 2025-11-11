@@ -278,7 +278,7 @@ header{
 }
 .whatsapp-books.space-top-bottom{
     padding-bottom: 60px;
-    padding-top: 40px;
+    padding-top: 0px;
 }
 .we-fit-in-section h2 span{
     text-align: right;
@@ -403,6 +403,9 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
 .space-bottom-30{
     margin-bottom: 30px;
 }
+.space-bottom-100{
+    padding-bottom: 100px;
+}
 .haos-to-control-section .dropdown-wrapper{
     border: 1px solid #F1F2F5;
 }
@@ -457,6 +460,9 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
     color: #000000;
     text-align: left;
     margin-bottom: 0px;
+}
+.what-our-clients-say{
+    width: 1179px;
 }
 @media only screen and (min-width:1400px){
 
