@@ -191,8 +191,9 @@ header{
     margin-top: 10px;
 }
 .we-are-excited .logo{
-    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
+  text-align: center;
 }
 .we-are-excited h3{
     color: #1C1C1E;
@@ -512,6 +513,7 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
     display: none;
     z-index: 20;
 }
+/*
 .modal-content{
     position: relative;
     border: 0px;
@@ -538,6 +540,7 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
     right: 0;
     border-radius: 100px;
 }
+*/
 @media only screen and (min-width:1400px){
 
     .container-fluid{
