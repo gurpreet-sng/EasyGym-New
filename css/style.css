@@ -512,7 +512,27 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
     display: none;
     z-index: 20;
 }
-
+.modal-content{
+    position: relative;
+}
+.modal-header{
+    padding: 0px;
+}
+.modal-body{
+    padding: 0px;
+}
+.btn-close{
+    position: absolute;
+    color: #000000;
+    background-color: #ffffff;
+    border: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 1;
+    z-index: 20;
+    right: 0;
+    border-radius: 100px;
+}
 @media only screen and (min-width:1400px){
 
     .container-fluid{
