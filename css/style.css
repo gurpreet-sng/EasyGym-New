@@ -514,9 +514,11 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
 }
 .modal-content{
     position: relative;
+    border: 0px;
 }
 .modal-header{
     padding: 0px;
+    border: 0px;
 }
 .modal-body{
     padding: 0px;
