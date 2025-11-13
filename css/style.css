@@ -590,12 +590,16 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
     }
     .navbar-expand-md .navbar-nav .nav-link{
         padding: 15px 15px;
+        font-size: 14px;
     }
     .ph-no{
         font-size: 14px;
     }
     .btn.header-btn{
         font-size: 14px;
+    }
+    .navbar .social-icons{
+        display: none;
     }
 }
 @media only screen and (max-width:1024px){
