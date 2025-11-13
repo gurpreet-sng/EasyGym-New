@@ -512,12 +512,7 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
     display: none;
     z-index: 20;
 }
-@media only screen and (max-width: 1440px){
 
-    .navbar-expand-md .navbar-nav li .submenu-wrapper{
-        width: 1000px;
-    }
-}
 @media only screen and (min-width:1400px){
 
     .container-fluid{
@@ -526,6 +521,9 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
 }
 @media only screen and (max-width:1400px){
 
+    .navbar-expand-md .navbar-nav li .submenu-wrapper{
+        width: 1000px;
+    }
     .icon-title p br{
         display: none;
     }
