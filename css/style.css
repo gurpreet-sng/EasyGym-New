@@ -585,6 +585,18 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
     .navbar-expand-md .navbar-nav li .submenu-wrapper{
         width: 820px;
     }
+    .spaceleft-right{
+        padding: 0px 0px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link{
+        padding: 15px 15px;
+    }
+    .ph-no{
+        font-size: 14px;
+    }
+    .btn.header-btn{
+        font-size: 14px;
+    }
 }
 @media only screen and (max-width:1024px){
 
