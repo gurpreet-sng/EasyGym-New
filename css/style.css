@@ -513,7 +513,7 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
     display: none;
     z-index: 20;
 }
-/*
+
 .modal-content{
     position: relative;
     border: 0px;
@@ -540,7 +540,7 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
     right: 0;
     border-radius: 100px;
 }
-*/
+
 @media only screen and (min-width:1400px){
 
     .container-fluid{
