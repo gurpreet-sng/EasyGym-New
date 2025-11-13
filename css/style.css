@@ -140,7 +140,7 @@ header{
     padding: 30px 0px;
 }
 .copyright{
-    font-size: 20px;
+    font-size: 18px;
     color: #ffffff;
     margin: 0px;
 }
@@ -540,7 +540,18 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
     right: 0;
     border-radius: 100px;
 }
-
+header .spaceleft-right{
+    padding-right: 0px;
+}
+header  .container-fluid{
+    padding-right: 0px;
+}
+.extensive-overview-section .row{
+    align-items: stretch;
+}
+.extensive-overview-section .content-box{
+    height: 100%;
+}
 @media only screen and (min-width:1400px){
 
     .container-fluid{
@@ -579,14 +590,14 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
 }
 @media only screen and (max-width:1199px){
 
+    header .spaceleft-right{
+        padding-left: 0px;
+    }
     .navbar-expand-md .navbar-nav li:hover .submenu-wrapper{
         flex-direction: column;
     }
     .navbar-expand-md .navbar-nav li .submenu-wrapper{
         width: 820px;
-    }
-    .spaceleft-right{
-        padding: 0px 0px;
     }
     .navbar-expand-md .navbar-nav .nav-link{
         padding: 15px 15px;
@@ -600,6 +611,70 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
     }
     .navbar .social-icons{
         display: none;
+    }
+    .banner-section-wrapper h1{
+        font-size: 56px;
+        line-height: 70px;
+    }
+    .we-are-excited h3{
+        font-size: 25px;
+        line-height: 40px;
+    }
+    .whatsapp-books .section-title h2 br{
+        display: none;
+    }
+    .twenty-five{
+        font-size: 20px;
+    }
+    .icon-title p{
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .row.row-parent{
+        flex-direction: column;
+    }
+    .row.row-parent > .col-lg-7{
+        width: 100%;
+    }
+    .row.row-parent{
+        flex-direction: column-reverse;
+    }
+    .row.row-parent .col-lg-5{
+        margin-bottom: 40px;
+    }
+    .whatsapp-books.space-bottom-100{
+        padding-bottom: 50px;
+    }
+    .business-box h6{
+        font-size: 20px;
+    }
+    .section-with-dropdown .section-title h2 br{
+        display: none;
+    }
+    .section-title h2{
+        font-size: 38px;
+        line-height: 45px;
+    }
+    .section-with-dropdown .accordion-button{
+        font-size: 20px;
+        padding: 20px 0px;
+    }
+    .section-with-dropdown .accordion-body{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .eighteen-pixel{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .footer-links ul li a{
+        font-size: 16px;
+    }
+    .copyright{
+        font-size: 16px;
+    }
+    .footer-links h6{
+        font-size: 20px;
     }
 }
 @media only screen and (max-width:1024px){
