@@ -969,9 +969,31 @@ header  .container-fluid{
     .what-our-clients.space-top-bottom{
         padding-top: 30px;
     }
+    .owl-one .owl-prev span, .owl-three .owl-prev span{
+        width: 42px;
+        height: 42px;
+        background-size: contain;
+    }
+    .owl-one .owl-next span, .owl-three .owl-next span{
+        width: 42px;
+        height: 42px;
+        background-size: contain;
+    }
+    .banner-section-wrapper{
+        flex-direction: column-reverse;
+        display: flex;
+        padding-top: 0px;
+        padding-bottom: 60px;
+    }
+    .banner-image{
+        padding-bottom: 0px;
+    }
 }
 @media only screen and (max-width:575px){
 
+    .we-are-excited .flag{
+        margin-top: 0px;
+    }
     .banner-section-wrapper p{
         font-size: 16px;
         line-height: 30px;
@@ -991,9 +1013,6 @@ header  .container-fluid{
     .dropdown-wrapper.dropdown-wrapper-two .section-title{
         padding-left: 0px;
     }
-    .banner-section-wrapper{
-        padding: 60px 0px 0px;
-    }
     .section-title h2 {
         font-size: 25px;
         line-height: 35px;
@@ -1010,9 +1029,10 @@ header  .container-fluid{
     }
     .banner-image {
         padding-top: 40px;
+        padding-bottom: 0px;
     }
     .we-are-excited h3 {
-        font-size: 22px;
+        font-size: 26px;
         line-height: 34px;
     }
     .item-content h6{
