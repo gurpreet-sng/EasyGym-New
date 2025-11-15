@@ -3,6 +3,36 @@ body{
     padding: 0px;
     font-family: "Montserrat", sans-serif;
 }
+.owl-one .owl-nav.disabled, .owl-three .owl-nav.disabled{
+    display: block;
+}
+.owl-one .owl-prev span, .owl-three .owl-prev span{
+    display: inline-block;
+    background-image: url(../images/owl-prev.png);
+    width: 52px;
+    height: 52px;
+    font-size: 0px;
+    position: absolute;
+    left: -70px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.owl-one .owl-next span, .owl-three .owl-next span{
+    display: inline-block;
+    background-image: url(../images/owl-next.png);
+    width: 52px;
+    height: 52px;
+    font-size: 0px;
+    position: absolute;
+    right: -70px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.grow-your-gym .owl-one, .grow-your-gym .owl-three{
+    position: relative;
+}
 header{
     border-bottom: 2px solid #bdbdbd;
 }
@@ -488,7 +518,7 @@ background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+,
     float: left;
     min-height: 150px;
 }
-.menulink {
+.menulink{
     display: flex;
     text-decoration: none;
     color: #000000;
