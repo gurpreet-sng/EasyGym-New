@@ -850,16 +850,24 @@ Online Booking with a Free Website</p>
                     autoplayHoverPause:true,
                     responsive:{
                         0:{
-                            items:1
+                            items:1,
+                            stagePadding: 20   // FIX HERE
+                        },
+                        576:{
+                            items:2,
+                            stagePadding: 50  // optional
                         },
                         991:{
-                            items:3
+                            items:3,
+                            stagePadding: 100 // optional
                         },
                         1199:{
-                            items:4
+                            items:4,
+                            stagePadding: 150
                         }
                     }
                 });
+
 
                 $('.owl-three').owlCarousel({
                     items:5,
