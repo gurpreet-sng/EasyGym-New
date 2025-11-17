@@ -663,6 +663,9 @@ button:focus:not(:focus-visible){
 .we-are-excited-logos-mobile{
     display: none;
 }
+.icon-title i{
+    flex-shrink: 0;
+}
 @media only screen and (min-width:1400px){
 
     .container-fluid{
@@ -704,6 +707,24 @@ button:focus:not(:focus-visible){
     .social-icons ul li{
         margin: 0px 5px;
     }
+    .twenty-five{
+        font-size: 18px;
+    }
+    .icon-title p{
+        font-size: 20px;
+    }
+    .icon-title-description p{
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .section-title h2{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .item-content p{
+        font-size: 14px;
+        line-height: 24px;
+    }
 }
 @media only screen and (max-width:1199px){
 
@@ -741,11 +762,11 @@ button:focus:not(:focus-visible){
         display: none;
     }
     .twenty-five{
-        font-size: 20px;
+        font-size: 18px;
     }
     .icon-title p{
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 18px;
+        line-height: 28px;
     }
     .row.row-parent{
         flex-direction: column;
