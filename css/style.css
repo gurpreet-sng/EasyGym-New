@@ -9,7 +9,7 @@ body{
 .owl-three .owl-dots{
     height: 0px;
 }
-.owl-one .owl-nav.disabled, .owl-three .owl-nav.disabled{
+.owl-one .owl-nav.disabled, .owl-three .owl-nav.disabled,.owl-four .owl-nav.disabled{
     display: block;
     height: 0px;
 }
@@ -25,7 +25,10 @@ body{
 .grow-your-gym .owl-three .owl-dots{
     height: 0px;
 }
-.owl-one .owl-prev span, .owl-three .owl-prev span{
+.grow-your-gym .owl-four .owl-dots{
+    height: 0px;
+}
+.owl-one .owl-prev span, .owl-three .owl-prev span, .owl-four .owl-prev span{
     display: inline-block;
     background-image: url(../images/owl-prev.png);
     width: 52px;
@@ -37,7 +40,7 @@ body{
     bottom: 0px;
     margin: auto;
 }
-.owl-one .owl-next span, .owl-three .owl-next span{
+.owl-one .owl-next span, .owl-three .owl-next span, .owl-four .owl-next span{
     display: inline-block;
     background-image: url(../images/owl-next.png);
     width: 52px;
@@ -47,6 +50,10 @@ body{
     right: -30px;
     top: 0px;
     bottom: 0px;
+    margin: auto;
+}
+.owl-four .flag img{
+    width: auto;
     margin: auto;
 }
 .grow-your-gym .owl-one, .grow-your-gym .owl-three{
@@ -653,7 +660,9 @@ button:focus:not(:focus-visible){
 #ModalTogglefive .modal-dialog-centered{
     justify-content: center;
 }
-
+.we-are-excited-logos-mobile{
+    display: none;
+}
 @media only screen and (min-width:1400px){
 
     .container-fluid{
@@ -903,6 +912,12 @@ button:focus:not(:focus-visible){
 }
 @media only screen and (max-width:767px){
 
+    .we-are-excited-logos-mobile{
+        display: block;
+    }
+    .we-are-excited .col-5th{
+        display: none;
+    }
     .mobile-fixed-buttons{
         display: block;
         position: fixed;
