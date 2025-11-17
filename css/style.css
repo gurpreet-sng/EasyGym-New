@@ -613,7 +613,12 @@ header  .container-fluid{
 .navbar-expand-md .navbar-nav .nav-link{
     text-align: center;
 }
-
+.extensive-overview-section .col-lg-3.col-md-6{
+    margin-bottom: 30px;
+}
+.what-our-clients.space-top-bottom{
+    padding-top: 70px;
+}
 @media only screen and (min-width:1400px){
 
     .container-fluid{
