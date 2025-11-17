@@ -619,6 +619,41 @@ header  .container-fluid{
 .what-our-clients.space-top-bottom{
     padding-top: 70px;
 }
+.contact-numbers{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contact-numbers .ph-no{
+    padding: 8px 0px;
+}
+.modal-header .btn-close{
+   border: 2px solid #000;
+}
+.mobile-fixed-buttons{
+    display: none;
+}
+.mobile-fixed-buttons a{
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fee966+0,e6c700+100 */
+    background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    padding: 10px 0px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid #000000;
+    font-size: 14px;
+    font-weight: 500;
+    display: block;
+}
+button:focus:not(:focus-visible){
+    box-shadow: none;
+}
+#ModalTogglefive .modal-dialog-centered{
+    justify-content: center;
+}
+
 @media only screen and (min-width:1400px){
 
     .container-fluid{
@@ -868,6 +903,13 @@ header  .container-fluid{
 }
 @media only screen and (max-width:767px){
 
+    .mobile-fixed-buttons{
+        display: block;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+        z-index: 50;
+    }
     .navbar-expand-md .navbar-nav li .submenu-wrapper{
         padding: 40px 20px 0px;
     }
@@ -893,6 +935,20 @@ header  .container-fluid{
     }
     .navbar-toggler{
         background-color: #212529;
+        color: #000000;
+        /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fee966+0,e6c700+100 */
+        background: linear-gradient(to bottom,  #fee966 0%,#e6c700 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        border: 0px;
+    }
+    .navbar-toggler:focus{
+        box-shadow: none;
+        outline: none;
+    }
+    .navbar-toggler .navbar-toggler-icon{
+        font-size: 0px;
+        width: 32px;
+        height: 32px;
+        background-image: url("../images/menu.png");
     }
     header .container-fluid{
         padding-right: 12px;
